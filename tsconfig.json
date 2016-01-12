@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "sourceMap": true,
+    "inlineSourceMap": false,
+    "removeComments": true,
+    "outDir": "./www/js",
+    "sourceRoot": "../src"
+  },
+  "exclude": [
+    "node_modules",
+    "typings",
+    "www/lib",
+    "www/js",
+    "./gulpfile.js"
+  ]
+}
