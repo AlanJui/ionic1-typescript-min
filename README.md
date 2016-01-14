@@ -1,6 +1,6 @@
 # 專案摘要
 
-以 Ionic 開發 App ，若將原始程式碼自 ES5 JavaScript ，改用 TypeScript ，固然能因其「嚴謹」的特性，帶來諸多好處。但也因此， 原本 Script 語言獨有的特色－「「便捷」」，卻也因此隨之消逝。
+以 Ionic 開發 App ，若將原始程式碼自 ES5 JavaScript ，改用 **TypeScript** ，固然能因其「`嚴謹`」的特性，帶來諸多好處。但也因此， 原本 Script 語言獨有的特色－「`便捷`」，卻也因此隨之消逝。
 
 支援 TypeScript 的 Editor 或 IDE 軟體，會在使用者編輯程式碼的時候，便開始進行「解譯」的工作，分析程式碼的語意（Syntax）。若是找到錯誤，便會透過某種「介面」向使用者回報：「哇～！我找到問題了喔！」。
 
@@ -12,7 +12,7 @@
 
 本專案便是因此研究「目的」，而致產生的結果。
 
-專案以 Ionic App 為例，示範如何將本是 ES5 JavaScript 的原始程式碼，以 TypeScript 改寫。因為 Ionic 平台的基礎，源自 Angular 1.x ，所以，此處的作法，也能適用於將 Angular 1.x App 。
+專案以 Ionic App 為例，示範如何將本是 JavaScript 的原始程式碼，以 TypeScript 改寫。因為 Ionic 平台的基礎，源自 Angular 1.x ，所以，此處的作法，也能適用於將 Angular 1.x App 。
 
 為使本專案的產出，是可以「實作」，可以「執行」，以驗證其理論的可行性。本專案的 TypeScript ，採 VSCode (Visual Studio Code) 作為程式碼的「編輯器（Editor）」， 並透過 VSCode 進行以下所列之程式開發作業：
 
